@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f5f7fa 0%, #b8c6db 100%);
+    
+}
+
+
+h1{
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 50px 40px 40px 40px;
+}
+
+h1 a{
+	text-decoration: none;
+    color: #000000;
+    font-family: system-ui;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ny{
+	font-family: 'Comic Sans MS';
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.smalltext{
+    font-size: 30px;
+}
+
+.timer-box{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 25px 20px rgb(0 0 0 / 0.2);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.timer-box> span {
+	font-size: 35px;
+	font-weight: bold; 
+}
+
+#Display{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 200px;
+}
+
+.century h2{
+	color: #000000;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: left;
+	/*font-family: 'Cursive';*/
+	font-family: 'Comic Sans MS';
+}
+
+@media(min-width: 1200px){
+	body{
+		overflow: hidden;
+	}
+}
+
